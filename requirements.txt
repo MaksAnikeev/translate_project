@@ -1,0 +1,17 @@
+fastapi[standard]
+uvicorn[standard]
+aiohttp
+pydantic
+sqlalchemy
+alembic
+psycopg2
+asyncpg
+psycopg
+redis
+celery
+pytest-dotenv
+pytest-asyncio
+ruff
+pyright
+async_generator
+aiofiles
