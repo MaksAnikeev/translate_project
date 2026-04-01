@@ -14,8 +14,8 @@ class Settings(BaseSettings):
 
     MAX_CHUNK_SIZE: int
 
-    SOURCE_LANG = "ru"
-    TARGET_LANG = "en"
+    SOURCE_LANG: str
+    TARGET_LANG: str
 
     REDIS_HOST: str
     REDIS_PORT: int
@@ -35,8 +35,8 @@ class Settings(BaseSettings):
     }
 
     REQUEST_PARAMS = {
-        "source_lang": "ru",
-        "target_lang": "en",
+        "source_lang": SOURCE_LANG,
+        "target_lang": TARGET_LANG,
     }
 
 
